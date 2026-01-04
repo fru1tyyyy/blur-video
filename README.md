@@ -12,7 +12,6 @@ This repository contains two computer vision implementations written in **Python
 5. [How to Run](#how-to-run)
 6. [Applications](#applications)
 7. [Notes](#notes)
-8. [Author](#author)
 
 ---
 
@@ -71,7 +70,7 @@ This module processes a traffic video by detecting ambient lighting conditions, 
 
 ---
 
-## Project Structure
+## 3. Project Structure
 
 ```text
 ├── img/
@@ -89,13 +88,13 @@ This module processes a traffic video by detecting ambient lighting conditions, 
 └── README.md
 
 ```
-## Requirements
+## 4. Requirements
 Ensure you have Python installed, then install the required libraries:
 ```Bash
 pip install opencv-python numpy
 ```
 ---
-## How to Run
+## 5. How to Run
 Document Analysis
 To extract paragraphs from the images in the img/ folder:
 ```Bash
@@ -109,7 +108,7 @@ python video_processing.py
 ```
 ---
 
-## Applications
+## 6. Applications
 Document Layout Analysis: Pre-processing for OCR (Optical Character Recognition).
 
 Privacy-Preserving Analytics: Anonymizing individuals in public traffic or surveillance feeds.
@@ -119,7 +118,7 @@ Surveillance Enhancement: Improving visibility in night-time security monitoring
 Multimedia Content Production: Automating video overlays and watermarking.
 
 ---
-## Notes
+## 7. Notes
 Thresholds: The sensitivity of paragraph detection depends on the "gap" size between text. You may need to adjust the threshold variables in the script for different font sizes.
 
 Paths: Ensure your video and image filenames match the scripts exactly or update the file paths within the code.
